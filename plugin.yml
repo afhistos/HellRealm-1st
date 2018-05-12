@@ -1,0 +1,30 @@
+name: HellRealm
+main: be.afhistos.hellrealm.Main
+version: 2.0
+author: afhistos
+description: lol
+commands:
+  carte:
+    description: See a card
+    usage: /carte [player]
+    permission: hr.carte
+    aliases:
+    - card
+  royalpoints:
+  description: Edit the rp of a player
+    usage: /royalpoints help
+    permission: hr.rp
+    aliases:
+    - rp
+    - royal
+    - points
+    - rpoints
+    - royalp
+  setgrade:
+    description: Set the grade of a player
+    usage: /setgrade aide
+    permission: hr.gradeset
+    aliases:
+    - sg
+    - setg
+    - sgrade
